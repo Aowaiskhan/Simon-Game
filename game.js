@@ -24,7 +24,7 @@ function checkAnswer(currLevel){
         if(ColorPattern.length==userColorPattern.length){
             setTimeout(function(){
                 Generator();
-            },400);
+            },800);
         }
     }
     else{
