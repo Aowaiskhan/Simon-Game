@@ -79,7 +79,7 @@ function Generator(){
 //     $("."+str).addClass("pressed");
 //     setTimeout(function(){
 //         $("."+str).removeClass("pressed")
-//     },50);
+//     },90);
 //     return str;
 // }
 
@@ -93,7 +93,7 @@ function Generator(){
 //         $("."+buttonID).addClass("pressed");
 //         setTimeout(function(){
 //             $("."+buttonID).removeClass("pressed")
-//         },50);
+//         },90);
 //     });
 //     return buttonID;
 // }
@@ -105,7 +105,7 @@ function Generator(){
 //         $(".red").addClass("pressed");
 //         setTimeout(function(){
 //             $(".red").removeClass("pressed")
-//         },50);   
+//         },90);   
 //     });
 // }
 
@@ -116,7 +116,7 @@ function Generator(){
 //         $(".green").addClass("pressed");
 //         setTimeout(function(){
 //             $(".green").removeClass("pressed")
-//         },50);   
+//         },90);   
 //     });
 // }
 
@@ -127,7 +127,7 @@ function Generator(){
 //         $(".blue").addClass("pressed");
 //         setTimeout(function(){
 //             $(".blue").removeClass("pressed")
-//         },50);   
+//         },90);   
 //     });
 // }
 
@@ -139,7 +139,7 @@ function Generator(){
 //         $(".yellow").addClass("pressed");
 //         setTimeout(function(){
 //             $(".yellow").removeClass("   pressed")
-//         },50);   
+//         },90);   
 //     });
 // }
 
@@ -147,7 +147,7 @@ function pressAnimate(str){
     $("#"+str).addClass("pressed");
     setTimeout(function(){
         $("#"+str).removeClass("pressed");
-    },50);
+    },90);
 }
 
 function playSound(str){
